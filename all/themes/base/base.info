@@ -1,0 +1,40 @@
+name = Base
+description = Базовая тема без фреймворков и&nbsp;библиотек.
+package = Custom
+php = 5.4
+core = 7.x
+version = 7.x-0.1
+
+regions[header] = Header
+regions[primary] = Primary navigation
+regions[highlighted] = Highlighted
+regions[sidebar_first] = Left sidebar
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_second] = Right sidebar
+regions[secondary] = Secondary navigation
+regions[footer] = Footer
+regions[hidden] = Hidden
+
+; Настройки темы по умолчанию.
+;settings[toggle_logo] = 1
+;settings[toggle_name] = 1
+;settings[toggle_slogan] = 1
+;settings[toggle_node_user_picture] = 1
+;settings[toggle_comment_user_picture] = 1
+;settings[toggle_comment_user_verification] = 1
+;settings[toggle_favicon] = 1
+;settings[toggle_main_menu] = 1
+;settings[toggle_secondary_menu] = 1
+
+; Специфические настройки темы, см. theme-settings.php
+settings[show_front_page_title] = 0
+settings[show_front_page_tabs] = 0
+settings[front_page_in_breadcrumbs] = 1
+settings[current_page_in_breadcrumbs] = 1
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/style.css
+
+scripts[] = js/custom.js

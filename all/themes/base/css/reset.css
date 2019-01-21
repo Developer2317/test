@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+option,
+textarea {
+  font-family: inherit;
+}
+
+li.leaf {
+  padding: 0;
+}
+
+tr.odd, tr.even,
+th.odd, th.even,
+td.odd, td.even {
+  background-color: inherit;
+}
+
+.form-actions .btn {
+  margin-left: 15px;
+}
+
+.form-actions .btn:first-child {
+  margin-left: 0;
+}
+
+.form-inline .form-item,
+.form-inline .form-actions {
+  margin-top: 0;
+  margin-bottom: 0;
+}
